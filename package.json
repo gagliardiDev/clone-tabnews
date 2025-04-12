@@ -4,13 +4,16 @@
   "description": "clone do tabnews do felipe deschamps (curso.dev)",
   "main": "index.js",
   "devDependencies": {
+    "jest": "^29.6.2",
     "prettier": "^3.5.3"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next dev",
     "lint:check": "prettier --check .",
-    "lint:fix": "prettier --write ."
+    "lint:fix": "prettier --write .",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "keywords": [],
   "author": "",
