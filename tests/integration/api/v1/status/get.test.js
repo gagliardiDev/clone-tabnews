@@ -16,4 +16,4 @@ test("GET to /api/v1/status should return 200", async () => {
   expect(responseBody.dependencies.database.opened_connections).toBeDefined();
 });
 
-test("Teste de SQL injection", async () => {});
+
